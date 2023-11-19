@@ -15,6 +15,10 @@ background-color: var(--light-gray);
 overflow-x: hidden;
 }
 
+p{
+    line-height: 1.8rem;
+}
+
 a{
     text-decoration: none;
 }
@@ -109,7 +113,7 @@ nav ul li:hover{
 
 .button-pg1{
     background-color: var(--primary-red);
-    width: 23%;
+    width: 24%;
     padding: 12px 24px;
     border-radius: 30px;
     color: white;
@@ -117,4 +121,56 @@ nav ul li:hover{
     font-weight: 500;
     transition: background-color ease .2s;
     margin-bottom: 2rem;
+}
+
+
+.page-2{
+    margin-top: 6%;;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap:8rem; */
+    /* margin-bottom: 10rem; */
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.lft-2 h1{
+    color: var(--primary-blue);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.lft-2 p{
+    color: var(--grey-blue);
+    font-size: 1.2rem;
+    padding-right: 8rem;
+}
+
+.lbox h4{
+    color: white;
+    background-color: var(--primary-red);
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 90%;
+    margin: 0 35px;
+}
+
+.rbox h4{
+    color: var(--dark-blue);
+    font-size: 1.1rem;
+    margin-bottom: 1.4rem;
+}
+.box{
+    margin-bottom: 2.5rem;
+}
+
+.rbox p{
+    color: var(--grey-blue);
+
 }
