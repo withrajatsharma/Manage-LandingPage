@@ -172,5 +172,11 @@ nav ul li:hover{
 
 .rbox p{
     color: var(--grey-blue);
+}
 
+.tablet-2{
+    position: absolute;
+    z-index: -10;
+    left: -32%;
+    top: 145%;
 }
