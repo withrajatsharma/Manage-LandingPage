@@ -48,13 +48,6 @@ ul{
    margin-top: 4%;
 }
 
-
-#page-1{
-    height: 100vh;
-    background-color: red;
-
-}
-
 header nav{
     display: flex;
     justify-content: space-between;
@@ -72,11 +65,12 @@ nav ul li{
     transition: color ease .2s;
 }
 
-.button{
+.button-nav{
     background-color: var(--primary-red);
-    padding: 15px 30px;
+    padding: 12px 24px;
     border-radius: 30px;
     color: white;
+    margin-right: 15px;
     font-size: 85%;
     font-weight: 500;
     transition: background-color ease .2s;
@@ -86,7 +80,41 @@ nav ul li:hover{
     color: var(--grey-blue);
     cursor: pointer;
 }
-.button:hover{
+.button-nav:hover, .button-pg1:hover{
     background-color: hsla(12, 88%, 59%, 0.7);
     cursor: pointer;
+}
+
+
+#page-1{
+    /* background-color: red; */
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left h1{
+    color: var(--primary-blue);
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.left p{
+    color: var(--grey-blue);
+    font-size: 1.2rem;
+    margin: 2rem 0 ;
+    padding-right: 8rem;
+}
+
+.button-pg1{
+    background-color: var(--primary-red);
+    width: 23%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    color: white;
+    font-size: 85%;
+    font-weight: 500;
+    transition: background-color ease .2s;
+    margin-bottom: 2rem;
 }
