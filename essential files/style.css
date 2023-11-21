@@ -56,11 +56,19 @@ ul{
     --light-gray: hsl(0, 0%, 98%);
 }
 
+.tablet-1div{
+width: 100vw;    
+height: 100vh;
+position: absolute;
+overflow: hidden;
+top: 0;
+
+}
 
 .tablet-1{
-    position: absolute;
-    right: -8%;
-    top: -140px;
+    position: relative;
+    right: -52%;
+    top: -130px;
     z-index: -10;
 }
 
@@ -502,10 +510,11 @@ footer .footer-1{
             font-size: 8vw;
 
         }
+        
         .tablet-1{
-            right: -38%;
-            top: -15%;
-            width: 125%;
+            width: 600px;
+            right: -14%;
+            top: -25%;
         }
         .tablet-2{
             left: -68%;
