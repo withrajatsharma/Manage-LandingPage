@@ -14,22 +14,20 @@ font-weight: 400;
 background-color: var(--light-gray);
 overflow-x: hidden;
 }
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
   }
   
-  /* Track */
+
   ::-webkit-scrollbar-track {
     background: #fafafac9;
   }
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #f25f3a94;
   }
   
-  /* Handle on hover */
+
   ::-webkit-scrollbar-thumb:hover {
     background: #F25F3A;
   }
